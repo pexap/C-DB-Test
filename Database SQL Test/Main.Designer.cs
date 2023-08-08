@@ -120,7 +120,7 @@
             this.button1.TabIndex = 7;
             this.button1.Text = "Insert";
             this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Click += new System.EventHandler(this.btn_insert);
             // 
             // button2
             // 
@@ -132,7 +132,7 @@
             this.button2.TabIndex = 8;
             this.button2.Text = "Update";
             this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.button2.Click += new System.EventHandler(this.btn_update);
             // 
             // button3
             // 
@@ -144,7 +144,7 @@
             this.button3.TabIndex = 9;
             this.button3.Text = "Delete";
             this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.button3.Click += new System.EventHandler(this.btn_delete);
             // 
             // button4
             // 
@@ -156,7 +156,7 @@
             this.button4.TabIndex = 10;
             this.button4.Text = "Search";
             this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.button4.Click += new System.EventHandler(this.btn_search);
             // 
             // dataGridView1
             // 
